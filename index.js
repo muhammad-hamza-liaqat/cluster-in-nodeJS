@@ -8,6 +8,7 @@ const PORT = process.env.PORT;
 
 const totalCPUs = os.cpus().length;
 console.log(totalCPUs)
+console.log(cluster.isPrimary)
 
 
 
